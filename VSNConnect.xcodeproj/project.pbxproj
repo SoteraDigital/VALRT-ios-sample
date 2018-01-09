@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6020861199A587000CA8E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020860199A587000CA8E25 /* Foundation.framework */; };
+		B6020863199A587000CA8E25 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020862199A587000CA8E25 /* CoreGraphics.framework */; };
+		B6020865199A587000CA8E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020864199A587000CA8E25 /* UIKit.framework */; };
+		B602086B199A587000CA8E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6020869199A587000CA8E25 /* InfoPlist.strings */; };
+		B602086D199A587000CA8E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B602086C199A587000CA8E25 /* main.m */; };
+		B6020871199A587000CA8E25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6020870199A587000CA8E25 /* AppDelegate.m */; };
+		B6020874199A587000CA8E25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6020872199A587000CA8E25 /* Main.storyboard */; };
+		B6020877199A587000CA8E25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6020876199A587000CA8E25 /* ViewController.m */; };
+		B6020879199A587000CA8E25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6020878199A587000CA8E25 /* Images.xcassets */; };
+		B6020880199A587000CA8E25 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B602087F199A587000CA8E25 /* XCTest.framework */; };
+		B6020881199A587000CA8E25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020860199A587000CA8E25 /* Foundation.framework */; };
+		B6020882199A587000CA8E25 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020864199A587000CA8E25 /* UIKit.framework */; };
+		B602088A199A587000CA8E25 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6020888199A587000CA8E25 /* InfoPlist.strings */; };
+		B602088C199A587000CA8E25 /* VSNConnectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B602088B199A587000CA8E25 /* VSNConnectTests.m */; };
+		B6020896199A59FC00CA8E25 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020895199A59FC00CA8E25 /* CoreBluetooth.framework */; };
+		B6020898199A5A0700CA8E25 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6020897199A5A0700CA8E25 /* QuartzCore.framework */; };
+		B602089B199A6E0200CA8E25 /* BluetoothConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = B602089A199A6E0200CA8E25 /* BluetoothConstants.m */; };
+		B687A5B719A3AD03006E1BE5 /* find_me_puck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B687A5B619A3AD03006E1BE5 /* find_me_puck@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6020883199A587000CA8E25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6020855199A587000CA8E25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B602085C199A587000CA8E25;
+			remoteInfo = VSNConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B602085D199A587000CA8E25 /* VSNConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSNConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6020860199A587000CA8E25 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6020862199A587000CA8E25 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B6020864199A587000CA8E25 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B6020868199A587000CA8E25 /* VSNConnect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSNConnect-Info.plist"; sourceTree = "<group>"; };
+		B602086A199A587000CA8E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B602086C199A587000CA8E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B602086E199A587000CA8E25 /* VSNConnect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSNConnect-Prefix.pch"; sourceTree = "<group>"; };
+		B602086F199A587000CA8E25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6020870199A587000CA8E25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6020873199A587000CA8E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6020875199A587000CA8E25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6020876199A587000CA8E25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6020878199A587000CA8E25 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B602087E199A587000CA8E25 /* VSNConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VSNConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B602087F199A587000CA8E25 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B6020887199A587000CA8E25 /* VSNConnectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSNConnectTests-Info.plist"; sourceTree = "<group>"; };
+		B6020889199A587000CA8E25 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B602088B199A587000CA8E25 /* VSNConnectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VSNConnectTests.m; sourceTree = "<group>"; };
+		B6020895199A59FC00CA8E25 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		B6020897199A5A0700CA8E25 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B6020899199A6E0200CA8E25 /* BluetoothConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothConstants.h; sourceTree = "<group>"; };
+		B602089A199A6E0200CA8E25 /* BluetoothConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothConstants.m; sourceTree = "<group>"; };
+		B687A5B619A3AD03006E1BE5 /* find_me_puck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "find_me_puck@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B602085A199A587000CA8E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6020898199A5A0700CA8E25 /* QuartzCore.framework in Frameworks */,
+				B6020896199A59FC00CA8E25 /* CoreBluetooth.framework in Frameworks */,
+				B6020863199A587000CA8E25 /* CoreGraphics.framework in Frameworks */,
+				B6020865199A587000CA8E25 /* UIKit.framework in Frameworks */,
+				B6020861199A587000CA8E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B602087B199A587000CA8E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6020880199A587000CA8E25 /* XCTest.framework in Frameworks */,
+				B6020882199A587000CA8E25 /* UIKit.framework in Frameworks */,
+				B6020881199A587000CA8E25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6020854199A587000CA8E25 = {
+			isa = PBXGroup;
+			children = (
+				B6020866199A587000CA8E25 /* VSNConnect */,
+				B6020885199A587000CA8E25 /* VSNConnectTests */,
+				B602085F199A587000CA8E25 /* Frameworks */,
+				B602085E199A587000CA8E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B602085E199A587000CA8E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B602085D199A587000CA8E25 /* VSNConnect.app */,
+				B602087E199A587000CA8E25 /* VSNConnectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B602085F199A587000CA8E25 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6020897199A5A0700CA8E25 /* QuartzCore.framework */,
+				B6020895199A59FC00CA8E25 /* CoreBluetooth.framework */,
+				B6020860199A587000CA8E25 /* Foundation.framework */,
+				B6020862199A587000CA8E25 /* CoreGraphics.framework */,
+				B6020864199A587000CA8E25 /* UIKit.framework */,
+				B602087F199A587000CA8E25 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6020866199A587000CA8E25 /* VSNConnect */ = {
+			isa = PBXGroup;
+			children = (
+				B602086F199A587000CA8E25 /* AppDelegate.h */,
+				B6020870199A587000CA8E25 /* AppDelegate.m */,
+				B6020872199A587000CA8E25 /* Main.storyboard */,
+				B6020875199A587000CA8E25 /* ViewController.h */,
+				B6020876199A587000CA8E25 /* ViewController.m */,
+				B687A5B619A3AD03006E1BE5 /* find_me_puck@2x.png */,
+				B6020878199A587000CA8E25 /* Images.xcassets */,
+				B6020867199A587000CA8E25 /* Supporting Files */,
+				B6020899199A6E0200CA8E25 /* BluetoothConstants.h */,
+				B602089A199A6E0200CA8E25 /* BluetoothConstants.m */,
+			);
+			path = VSNConnect;
+			sourceTree = "<group>";
+		};
+		B6020867199A587000CA8E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6020868199A587000CA8E25 /* VSNConnect-Info.plist */,
+				B6020869199A587000CA8E25 /* InfoPlist.strings */,
+				B602086C199A587000CA8E25 /* main.m */,
+				B602086E199A587000CA8E25 /* VSNConnect-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6020885199A587000CA8E25 /* VSNConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B602088B199A587000CA8E25 /* VSNConnectTests.m */,
+				B6020886199A587000CA8E25 /* Supporting Files */,
+			);
+			path = VSNConnectTests;
+			sourceTree = "<group>";
+		};
+		B6020886199A587000CA8E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6020887199A587000CA8E25 /* VSNConnectTests-Info.plist */,
+				B6020888199A587000CA8E25 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B602085C199A587000CA8E25 /* VSNConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B602088F199A587000CA8E25 /* Build configuration list for PBXNativeTarget "VSNConnect" */;
+			buildPhases = (
+				B6020859199A587000CA8E25 /* Sources */,
+				B602085A199A587000CA8E25 /* Frameworks */,
+				B602085B199A587000CA8E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSNConnect;
+			productName = VSNConnect;
+			productReference = B602085D199A587000CA8E25 /* VSNConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B602087D199A587000CA8E25 /* VSNConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6020892199A587000CA8E25 /* Build configuration list for PBXNativeTarget "VSNConnectTests" */;
+			buildPhases = (
+				B602087A199A587000CA8E25 /* Sources */,
+				B602087B199A587000CA8E25 /* Frameworks */,
+				B602087C199A587000CA8E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6020884199A587000CA8E25 /* PBXTargetDependency */,
+			);
+			name = VSNConnectTests;
+			productName = VSNConnectTests;
+			productReference = B602087E199A587000CA8E25 /* VSNConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6020855199A587000CA8E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ed Gilmore - Onn, Inc";
+				TargetAttributes = {
+					B602085C199A587000CA8E25 = {
+						DevelopmentTeam = R47B7A7BGS;
+					};
+					B602087D199A587000CA8E25 = {
+						TestTargetID = B602085C199A587000CA8E25;
+					};
+				};
+			};
+			buildConfigurationList = B6020858199A587000CA8E25 /* Build configuration list for PBXProject "VSNConnect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6020854199A587000CA8E25;
+			productRefGroup = B602085E199A587000CA8E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B602085C199A587000CA8E25 /* VSNConnect */,
+				B602087D199A587000CA8E25 /* VSNConnectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B602085B199A587000CA8E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B687A5B719A3AD03006E1BE5 /* find_me_puck@2x.png in Resources */,
+				B6020879199A587000CA8E25 /* Images.xcassets in Resources */,
+				B602086B199A587000CA8E25 /* InfoPlist.strings in Resources */,
+				B6020874199A587000CA8E25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B602087C199A587000CA8E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B602088A199A587000CA8E25 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6020859199A587000CA8E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6020877199A587000CA8E25 /* ViewController.m in Sources */,
+				B6020871199A587000CA8E25 /* AppDelegate.m in Sources */,
+				B602089B199A6E0200CA8E25 /* BluetoothConstants.m in Sources */,
+				B602086D199A587000CA8E25 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B602087A199A587000CA8E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B602088C199A587000CA8E25 /* VSNConnectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6020884199A587000CA8E25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B602085C199A587000CA8E25 /* VSNConnect */;
+			targetProxy = B6020883199A587000CA8E25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6020869199A587000CA8E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B602086A199A587000CA8E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B6020872199A587000CA8E25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6020873199A587000CA8E25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6020888199A587000CA8E25 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6020889199A587000CA8E25 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B602088D199A587000CA8E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B602088E199A587000CA8E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6020890199A587000CA8E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = R47B7A7BGS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSNConnect/VSNConnect-Prefix.pch";
+				INFOPLIST_FILE = "VSNConnect/VSNConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B6020891199A587000CA8E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = R47B7A7BGS;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSNConnect/VSNConnect-Prefix.pch";
+				INFOPLIST_FILE = "VSNConnect/VSNConnect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B6020893199A587000CA8E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSNConnect.app/VSNConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSNConnect/VSNConnect-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VSNConnectTests/VSNConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B6020894199A587000CA8E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VSNConnect.app/VSNConnect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSNConnect/VSNConnect-Prefix.pch";
+				INFOPLIST_FILE = "VSNConnectTests/VSNConnectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6020858199A587000CA8E25 /* Build configuration list for PBXProject "VSNConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B602088D199A587000CA8E25 /* Debug */,
+				B602088E199A587000CA8E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B602088F199A587000CA8E25 /* Build configuration list for PBXNativeTarget "VSNConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6020890199A587000CA8E25 /* Debug */,
+				B6020891199A587000CA8E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6020892199A587000CA8E25 /* Build configuration list for PBXNativeTarget "VSNConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6020893199A587000CA8E25 /* Debug */,
+				B6020894199A587000CA8E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6020855199A587000CA8E25 /* Project object */;
+}
