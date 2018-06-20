@@ -10,7 +10,7 @@
 #import "ViewController.h"
 #import "BluetoothConstants.h"
 
-#define VALRT_DEVICE_LOCAL_NAME @"V.ALRT C7:ED:C4" //get the address your V.ALRT and put it here
+#define VALRT_DEVICE_LOCAL_NAME @"V.ALRT A5:B1:4D" //get the address your V.ALRT and put it here
 
 @interface ViewController ()
 
@@ -254,7 +254,7 @@
 
 
 // instance method to stop the device from rotating - only support the Portrait orientation
-- (NSUInteger) supportedInterfaceOrientations {
+- (UIInterfaceOrientationMask) supportedInterfaceOrientations {
     // Return a bitmask of supported orientations. If you need more,
     // use bitwise or (see the commented return).
     return UIInterfaceOrientationMaskPortrait;
@@ -279,8 +279,8 @@
 -(int) compareCBUUID:(CBUUID *) UUID1 UUID2:(CBUUID *)UUID2 {
     char b1[128];
     char b2[128];
-    [UUID1.data getBytes:b1];
-    [UUID2.data getBytes:b2];
+    [UUID1.data getBytes:b1 length:128];
+    [UUID2.data getBytes:b2 length:128];
     if (memcmp(b1, b2, UUID1.data.length) == 0)return 1;
     else return 0;
 }

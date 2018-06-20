@@ -16,6 +16,29 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    //app was relaunched to manage
+    if([launchOptions objectForKey:UIApplicationLaunchOptionsBluetoothCentralsKey])
+    {
+        //set bool to Yes for isLaunchedForBluetoothRestore if restore from bluetooth central key
+        //Get the array of central managers restored by iOS
+        NSArray *centralManagerIdentifiers = launchOptions[UIApplicationLaunchOptionsBluetoothCentralsKey];
+        
+        // Setup manageDevicesViewController so we can restore the Central Manager
+        /*if (manageDevice == nil) {
+            manageDevice = [storyboard instantiateViewControllerWithIdentifier:@"ManageDevicesViewController"];
+            manageDevice.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+        }*/
+        if (self.ObjBLEConnection == nil) {
+            self.ObjBLEConnection = [[BLEConnectionClass alloc]init];
+        }
+        
+        //Restore the Central Manager
+        for (NSString *centralManagerIdentifier in centralManagerIdentifiers) {
+            self.ObjBLEConnection.CM = [[CBCentralManager alloc] initWithDelegate:self.ObjBLEConnection queue:nil options:@{CBCentralManagerOptionRestoreIdentifierKey : centralManagerIdentifier, CBCentralManagerOptionShowPowerAlertKey:[NSNumber numberWithBool:YES]}];
+            self.ObjBLEConnection.delegate = self;
+        }
+    }
+    
     return YES;
 }
 							
