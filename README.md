@@ -1,14 +1,7 @@
-p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px} p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica} p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Calibri} p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px Calibri; min-height: 17.0px} p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #643820} span.s1 {font-variant-ligatures: no-common-ligatures} span.s2 {font-variant-ligatures: no-common-ligatures; color: #c41a16} 
+- V.BTTN / V.ALRT iOS sample code.
 
-VSN Connect - README
-
-Version 1.0
-
-Last Updated: 8/19/2014
-
-This sample code will help you get started with the VSN 
-
-sdk.  It provides sample code for how to:
+This sample code will help you get started with the VSN sdk.  
+It provides sample code for how to:
 
 -scan for devices
 
@@ -30,8 +23,4 @@ For example:
 
 https://itunes.apple.com/us/app/lightblue/id639944780?mt=12
 
-3) Note, the iOS simulator 
-
-bluetooth support is limited to the device only, so running this code in the simulator will not let you use 
-
-bluetooth.
+3) Note, the iOS simulator bluetooth support is limited to the device only, so running this code in the simulator will not let you use bluetooth.
